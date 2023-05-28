@@ -11,6 +11,7 @@ body{
     margin-top: 2 rem;
     grid-template-columns: repeat(4,6rem);
     grid-template-rows: minmax(7rem,auto) repeat(5,6rem);
+    justify-content: center;
 
 }
 .span-two{
@@ -28,6 +29,17 @@ body{
     padding: 0.75rem;
     word-wrap: break-word;
     word-break: break-all;
+}
+.calculator-grid > button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255,255,255,0.75);
+
+}
+.calculator-grid > button:hover,.calculator-grid > button:focus{
+    background-color: rgba(255,255,255,0.9);
 }
 .output .previous-operand{
     font-size:1.5rem;
